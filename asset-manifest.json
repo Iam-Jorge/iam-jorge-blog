@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/iam-jorge-blog/static/css/main.f855e6bc.css",
+    "main.js": "/iam-jorge-blog/static/js/main.b4e12d95.js",
+    "index.html": "/iam-jorge-blog/index.html",
+    "main.f855e6bc.css.map": "/iam-jorge-blog/static/css/main.f855e6bc.css.map",
+    "main.b4e12d95.js.map": "/iam-jorge-blog/static/js/main.b4e12d95.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f855e6bc.css",
+    "static/js/main.b4e12d95.js"
+  ]
+}
