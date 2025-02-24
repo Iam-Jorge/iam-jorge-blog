@@ -1,0 +1,55 @@
+body {
+    font-family: "Georgia", serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .about-me-container {
+    max-width: 800px;
+    margin: 40px auto;
+    background: #f8f9fa;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    color: #222;
+  }
+  
+  h2 {
+    font-size: 22px;
+    color: #444;
+    border-bottom: 2px solid #bbb;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+  }
+  
+  hr {
+    border: 0;
+    height: 1px;
+    background: #bbb;
+    margin: 20px 0;
+  }
+  
+  .section {
+    margin-bottom: 20px;
+  }
+  
+  ul {
+    padding-left: 20px;
+  }
+  
+  ul li {
+    margin-bottom: 5px;
+  }
+  
+  p {
+    line-height: 1.6;
+  }
+  
