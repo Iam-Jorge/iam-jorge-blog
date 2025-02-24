@@ -1,13 +1,21 @@
 {
   "files": {
-    "main.css": "/iam-jorge-blog/static/css/main.f855e6bc.css",
-    "main.js": "/iam-jorge-blog/static/js/main.b4e12d95.js",
+    "main.css": "/iam-jorge-blog/static/css/main.b4106234.css",
+    "main.js": "/iam-jorge-blog/static/js/main.c36fd05b.js",
+    "static/media/docker.png": "/iam-jorge-blog/static/media/docker.4835d748ea85562bce6b.png",
+    "static/media/Dockerfile.png": "/iam-jorge-blog/static/media/Dockerfile.a781dd0ca016ed0a5886.png",
+    "static/media/Google.jpeg": "/iam-jorge-blog/static/media/Google.bc5b9b930231b4c559ce.jpeg",
+    "static/media/WhoIs.jpeg": "/iam-jorge-blog/static/media/WhoIs.e0f4932cc82d4b55ec46.jpeg",
+    "static/media/Ex1.4.jpeg": "/iam-jorge-blog/static/media/Ex1.4.1d9ed5b4f1379ad86864.jpeg",
+    "static/media/HTBConnect.jpeg": "/iam-jorge-blog/static/media/HTBConnect.743b25658251d87baa1c.jpeg",
+    "static/media/CCN-CERT.png": "/iam-jorge-blog/static/media/CCN-CERT.ed15666b7aa17d48a283.png",
+    "static/media/Shodan.jpeg": "/iam-jorge-blog/static/media/Shodan.94272ac2c01a388aede9.jpeg",
     "index.html": "/iam-jorge-blog/index.html",
-    "main.f855e6bc.css.map": "/iam-jorge-blog/static/css/main.f855e6bc.css.map",
-    "main.b4e12d95.js.map": "/iam-jorge-blog/static/js/main.b4e12d95.js.map"
+    "main.b4106234.css.map": "/iam-jorge-blog/static/css/main.b4106234.css.map",
+    "main.c36fd05b.js.map": "/iam-jorge-blog/static/js/main.c36fd05b.js.map"
   },
   "entrypoints": [
-    "static/css/main.f855e6bc.css",
-    "static/js/main.b4e12d95.js"
+    "static/css/main.b4106234.css",
+    "static/js/main.c36fd05b.js"
   ]
 }
