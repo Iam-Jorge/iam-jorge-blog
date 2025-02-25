@@ -6,7 +6,7 @@ const DockerPage = () => {
     <PostDetail
       title="Running containers"
       date="23 Feb 2025"
-      readTime="5"
+      readTime="8"
       category="Docker"
       imageUrl={Docker}
       tags={['Docker', 'Containers', 'DevOps']}

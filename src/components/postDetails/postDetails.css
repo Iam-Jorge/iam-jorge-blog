@@ -2,6 +2,8 @@
   max-width: 800px;
   margin: 40px auto;
   padding: 0 20px;
+  margin-left: 10vh;
+  margin-right: 5vh;
 }
 
 .post-detail-header {
@@ -110,7 +112,6 @@ table, th, td {
 
 th, td {
   padding: 15px;
-  font-size: 1.5rem;
   width: 33%; 
 }
 
@@ -122,9 +123,21 @@ tr:nth-child(even) {
   background-color: #E8E8E8;
 }
 
+@media (max-width: 1400px) {
+  .post-detail {
+    margin-left: 40vh;
+    margin-right: 5vh;
+  }
+}
+
 @media (max-width: 1024px) {
   .post-detail-content pre {
     width: 95%;
+  }
+
+  .post-detail {
+    margin-left: 5vh;
+    margin-right: 5vh;
   }
 }
 
