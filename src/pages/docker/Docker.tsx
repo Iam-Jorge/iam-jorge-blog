@@ -43,12 +43,30 @@ const Docker = () => {
     },
     {
       id: '4',
-      title: 'Docker 4',
+      title: 'In-depth dive into images',
+      description: 'Images are the basic building blocks for containers and other images. When you "containerize" an application you work towards creating the image.',
+      imageUrl: dockerImage,
+      date: '2025-02-25',
+      readTime: '8',
+      slug: 'dockerPage4'
+    },
+    {
+      id: '5',
+      title: 'Docker 5',
       description: '',
       imageUrl: dockerImage,
-      date: '2025-02-24',
+      date: '2025-02-25',
       readTime: '8',
-      slug: 'dockerPage3'
+      slug: 'dockerPage5'
+    },
+    {
+      id: '6',
+      title: 'Docker 6',
+      description: '',
+      imageUrl: dockerImage,
+      date: '2025-02-25',
+      readTime: '8',
+      slug: 'dockerPage6'
     },
     // Más posts...
   ];
