@@ -1,4 +1,5 @@
 import PostDetail from '../../../components/postDetails/PostDetails';
+import HTBLogo from '../../../assets/images/HTB/HTBLogo.png';
 import AttackLifecycle from '../../../assets/images/HTB/AttackLifecycle.png';
 import IncidentHandling from '../../../assets/images/HTB/IncidentHandling.png';
 
@@ -7,9 +8,9 @@ const HTBPage = () => {
     <PostDetail
       title="Incident handling"
       date="23 Feb 2025"
-      readTime="5"
+      readTime="8"
       category="HTB"
-      imageUrl=""
+      imageUrl={HTBLogo}
       tags={['HTB']}
     >
       <div>

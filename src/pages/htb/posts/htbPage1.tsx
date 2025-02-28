@@ -2,8 +2,7 @@ import PostDetail from '../../../components/postDetails/PostDetails';
 import HTBLogo from '../../../assets/images/HTB/HTBLogo.png';
 import HTBConnect from '../../../assets/images/HTB/HTBConnect.jpeg';
 
-const HTBPage1 = () => {
-  console.log("HTBPage1 is rendering!");
+const HTBPage = () => {
   return (
     <PostDetail
       title="How to connect to a target"
@@ -26,4 +25,4 @@ const HTBPage1 = () => {
   );
 };
 
-export default HTBPage1;
+export default HTBPage;

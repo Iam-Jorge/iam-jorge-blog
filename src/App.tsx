@@ -16,6 +16,9 @@ import DockerPage6 from './pages/docker/posts/dockerPage6';
 import HTB from './pages/htb/HTB';
 import HTBPage1 from './pages/htb/posts/htbPage1'
 import HTBPage2 from './pages/htb/posts/htbPage2'
+import HTBPage3 from './pages/htb/posts/htbPage3'
+import HTBPage4 from './pages/htb/posts/htbPage4'
+import HTBPage5 from './pages/htb/posts/htbPage5'
 /* CCN-CERT (Ciberseguridad) Section */
 import Angeles from './pages/angeles/Angeles'
 import AngelesPage1 from './pages/angeles/posts/angelesPage1'
@@ -51,6 +54,9 @@ function App() {
             <Route path="/htb" element={<HTB/>} />
             <Route path="/htb/htbPage1" element={<HTBPage1 />} />
             <Route path="/htb/htbPage2" element={<HTBPage2 />} />
+            <Route path="/htb/htbPage3" element={<HTBPage3 />} />
+            <Route path="/htb/htbPage4" element={<HTBPage4 />} />
+            <Route path="/htb/htbPage5" element={<HTBPage5 />} />
 
             {/* CCN-Cert (Ciberseguridad) Section*/}
             <Route path="angeles" element={<Angeles/>} />
