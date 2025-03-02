@@ -12,6 +12,9 @@ import DockerPage3 from './pages/docker/posts/dockerPage3';
 import DockerPage4 from './pages/docker/posts/dockerPage4';
 import DockerPage5 from './pages/docker/posts/dockerPage5';
 import DockerPage6 from './pages/docker/posts/dockerPage6';
+import DockerPage7 from './pages/docker/posts/dockerPage7';
+import DockerPage8 from './pages/docker/posts/dockerPage8';
+import DockerPage9 from './pages/docker/posts/dockerPage9';
 /* Hack The Box Section */
 import HTB from './pages/htb/HTB';
 import HTBPage1 from './pages/htb/posts/htbPage1'
@@ -49,6 +52,9 @@ function App() {
             <Route path="/docker/dockerPage4" element={<DockerPage4 />} />
             <Route path="/docker/dockerPage5" element={<DockerPage5 />} />
             <Route path="/docker/dockerPage6" element={<DockerPage6 />} />
+            <Route path="/docker/dockerPage7" element={<DockerPage7 />} />
+            <Route path="/docker/dockerPage8" element={<DockerPage8 />} />
+            <Route path="/docker/dockerPage9" element={<DockerPage9 />} />
 
             {/* Hack The Box Section */}
             <Route path="/htb" element={<HTB/>} />

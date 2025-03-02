@@ -56,7 +56,7 @@ const HTB = () => {
       imageUrl: HTBLogo,
       date: '2025-02-26',
       readTime: '9',
-      slug: 'htbPage4'
+      slug: 'htbPage5'
     },
     // Más posts...
   ];

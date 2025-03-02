@@ -68,6 +68,33 @@ const Docker = () => {
       readTime: '10',
       slug: 'dockerPage6'
     },
+    {
+      id: '7',
+      title: 'Interacting with the container',
+      description: 'Interacting with the container via volumes and ports',
+      imageUrl: dockerImage,
+      date: '2025-03-02',
+      readTime: '8',
+      slug: 'dockerPage7'
+    },
+    {
+      id: '8',
+      title: 'Utilizing tools from the Registry',
+      description: 'Exploring the use of tools available in the Docker Registry',
+      imageUrl: dockerImage,
+      date: '2025-03-02',
+      readTime: '8',
+      slug: 'dockerPage8'
+    },
+    {
+      id: '9',
+      title: 'In-depth dive into containers',
+      description: 'Defining start conditions for the container',
+      imageUrl: dockerImage,
+      date: '2025-03-02',
+      readTime: '10',
+      slug: 'dockerPage9'
+    },
     // Más posts...
   ];
 

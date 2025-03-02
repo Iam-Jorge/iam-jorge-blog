@@ -1,6 +1,7 @@
 import PostDetail from '../../../components/postDetails/PostDetails';
 import HTBLogo from '../../../assets/images/HTB/HTBLogo.png';
-
+import CreateVisualization from '../../../assets/images/HTB/CreateVisualization.jpeg';
+import NewVisualization from '../../../assets/images/HTB/NewVisualization.jpeg';
 
 const HTBPage = () => {
   return (
@@ -14,6 +15,11 @@ const HTBPage = () => {
     >
       <div>
         <h2>Kibana Visualization Example 1: Failed Logon Attempts (All Users)</h2>
+        <p>Let's create our first Kibana dashboard. We will select Dashboard and Create new:</p>
+        <img src={CreateVisualization} alt="Create Visualization" />
+
+
+        <img src={NewVisualization} alt="New Visualization" />
 
 
       </div>
