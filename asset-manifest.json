@@ -1,21 +1,28 @@
 {
   "files": {
-    "main.css": "/iam-jorge-blog/static/css/main.b4106234.css",
-    "main.js": "/iam-jorge-blog/static/js/main.c36fd05b.js",
+    "main.css": "/iam-jorge-blog/static/css/main.e52dd56f.css",
+    "main.js": "/iam-jorge-blog/static/js/main.fd418a7e.js",
+    "static/media/IncidentHandling.png": "/iam-jorge-blog/static/media/IncidentHandling.bd16f31dcc242d68cfe2.png",
     "static/media/docker.png": "/iam-jorge-blog/static/media/docker.4835d748ea85562bce6b.png",
+    "static/media/NewVisualization.jpeg": "/iam-jorge-blog/static/media/NewVisualization.4195821516c1d26659fa.jpeg",
+    "static/media/DockerLayers.png": "/iam-jorge-blog/static/media/DockerLayers.de2836046120328812b5.png",
     "static/media/Dockerfile.png": "/iam-jorge-blog/static/media/Dockerfile.a781dd0ca016ed0a5886.png",
+    "static/media/CreateVisualization.jpeg": "/iam-jorge-blog/static/media/CreateVisualization.d8376902750d1cf85010.jpeg",
+    "static/media/ElasticStack.jpeg": "/iam-jorge-blog/static/media/ElasticStack.9b198845cf9adcada42d.jpeg",
     "static/media/Google.jpeg": "/iam-jorge-blog/static/media/Google.bc5b9b930231b4c559ce.jpeg",
+    "static/media/ELKWorkflow.jpeg": "/iam-jorge-blog/static/media/ELKWorkflow.b11f485565bd208d85f4.jpeg",
     "static/media/WhoIs.jpeg": "/iam-jorge-blog/static/media/WhoIs.e0f4932cc82d4b55ec46.jpeg",
     "static/media/Ex1.4.jpeg": "/iam-jorge-blog/static/media/Ex1.4.1d9ed5b4f1379ad86864.jpeg",
     "static/media/HTBConnect.jpeg": "/iam-jorge-blog/static/media/HTBConnect.743b25658251d87baa1c.jpeg",
     "static/media/CCN-CERT.png": "/iam-jorge-blog/static/media/CCN-CERT.ed15666b7aa17d48a283.png",
+    "static/media/AttackLifecycle.png": "/iam-jorge-blog/static/media/AttackLifecycle.e742a7f71465f645a764.png",
     "static/media/Shodan.jpeg": "/iam-jorge-blog/static/media/Shodan.94272ac2c01a388aede9.jpeg",
     "index.html": "/iam-jorge-blog/index.html",
-    "main.b4106234.css.map": "/iam-jorge-blog/static/css/main.b4106234.css.map",
-    "main.c36fd05b.js.map": "/iam-jorge-blog/static/js/main.c36fd05b.js.map"
+    "main.e52dd56f.css.map": "/iam-jorge-blog/static/css/main.e52dd56f.css.map",
+    "main.fd418a7e.js.map": "/iam-jorge-blog/static/js/main.fd418a7e.js.map"
   },
   "entrypoints": [
-    "static/css/main.b4106234.css",
-    "static/js/main.c36fd05b.js"
+    "static/css/main.e52dd56f.css",
+    "static/js/main.fd418a7e.js"
   ]
 }
