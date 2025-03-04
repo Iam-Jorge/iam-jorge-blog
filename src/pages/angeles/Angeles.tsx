@@ -29,7 +29,7 @@ const Docker = () => {
       description: 'En los últimos tiempos, el abandono de los trámites administrativos en papel, el crecimiento de lo conocido como. Era Digital y el continuo dinamismo de las tecnologías y sus posibles fraudes, hace necesario que exista una base de conocimiento en este contexto.',
       imageUrl: LogoCCN,
       date: '2025-03-03',
-      readTime: '8',
+      readTime: '20',
       slug: 'angelesPage2'
     },
     // Más posts...

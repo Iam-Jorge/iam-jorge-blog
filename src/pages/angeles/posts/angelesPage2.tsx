@@ -7,7 +7,7 @@ const angelesPage = () => {
     <PostDetail
       title="Certificados Digitales"
       date="03 Mar 2025"
-      readTime="5"
+      readTime="20"
       category="CCN-CERT"
       imageUrl={LogoCCN}
       tags={['CCN-CERT', 'Ciberseguridad']}
@@ -130,10 +130,86 @@ const angelesPage = () => {
           abusivas en contratos online.</p>
         <br></br>
 
-        <h2>Prestadores de servicios de confianza</h2>
-        <h3>¿Qué es un prestador de servicios de confianza?</h3>
-        <p></p>
+        <h2>El certificado digital</h2>
+        <h3>¿Qué es un certificado digital?</h3>
+        <p>Es un documento electrónico que contiene datos identificativos y es expedido por prestadores de confianza 
+          acreditados que vinculan a una persona física con sus datos de verificación de firma y confirma su identidad.</p>
+        <h3>¿Qué información contiene un certificado?</h3>
+        <ul>
+          <li>La identidad del titular. Datos de filiación del titular (empresa, colegio profesional…etc).</li>
+          <li>La clave pública del titular.</li>
+          <li>Datos propios del certificado: número de serie, fecha de caducidad…</li>
+          <li>La identidad de la autoridad de certificación que lo ha emitido.</li>
+          <li>La firma de la autoridad de certificación…</li>
+        </ul>
+        <h3>Tipos de certificados</h3>
+        <ul>
+          <li>Tipos de certificado según su soportes
+            <ul>
+              <li>Certificado en software o distribuido: Certificado que se emite en formato de archivo descargable cuyo soporte es el propio equipo físico.</li>
+              <li>Certificado centralizado: Este certificado no se aloja en equipos informáticos individuales sino en la nube.</li>
+            </ul>
+          </li>
+          <li>Tipos de certificado según su emisión
+            <ul>
+              <li>Certificados cualificados: Emitidos por un Prestados de Servicios de Confianza Cualificados, bajo las condiciones de eIDAS.</li>
+              <li>Certificados no cualificados: Emitidos por un Prestador de Servicios de Confianza, pero sin el amparo de la cualificación y sin el respaldo jurídico.</li>
+            </ul>
+          </li>
+          <li>Tipos de certificado según su titularidad
+            <ul>
+              <li>Certificados de persona física: Vincula a su titular con unos datos de verificación de firma que confirman su identidad.</li>
+              <li>Certificados de representación: Vincula a un titular con unos datos de verificación actuando en representación de una entidad.</li>
+              <li>Certificados de componente: Se trata de certificados que autentican la identidad de un servidor y la firma de un código.</li>
+            </ul>
+          </li>
+          <li>Tipos de certificado según eIDAS
+            <ul>
+              <li>Certificado de firma: Orientado a la firma de personas físicas.</li>
+              <li>Certificado de sello: Orientado al sello de personas jurídicas.</li>
+              <li>Certificado de autenticación web: Orientado a vincular el sitio web con la persona física o jurídica titular del certificado.</li>
+              <li>Certificado no cualificado: Puede estar orientado tanto a personas físicas, como jurídicas, componentes, SSL.</li>
+            </ul>
+          </li>
+        </ul>
+        <h3>Un servicio específico: el TimeStamps</h3>
+        <p>El sellado de tiempo es un mecanismo on-line que permite demostrar que una serie de datos han existido y no han sido 
+          alterados desde un instante específico en el tiempo.</p>
+        <br></br>
 
+        <h2>Validación de certificados y autenticación</h2>
+        <h3>El sistema Cl@ve</h3>
+        <p>El Sistema Cl@ve es una plataforma del Gobierno español de verificación de identidades electrónicas para la identificación 
+          y autenticación de los ciudadanos en España.</p>
+        <h3>Firma electrónica</h3>
+        <p>Firma electrónica que se realiza mediante par de claves (privada/pública) consiguiendo mayores garantías y permitiendo 
+          garantizar la integridad y, asociando ambas claves a un certificado digital, que mediante la verificación previa de la 
+          identidad del firmante antes de emitirlo, permite también garantizar el no repudio.</p>
+        <h3>Código de un solo uso (OTP por SMS)</h3>
+        <p>Firma asociada al envío de un código OTP (One Time Password).</p>
+        <br></br>
+        <h3>Cómo confirmar la validez un certificado</h3>
+        <p>A nivel técnico, existen dos medios principales para validar un certificado las CRLs y el OCSP.</p>
+        <ul>
+          <li>CRL (Certificate Revocation List)</li>
+          <ul>
+            <li>La CA debe ser capaz de publicar de forma segura información acerca del estado, chequeado su estado antes de ser usado.</li>
+            <li>Para ello la CA creará CRL y publique estas CRL a un sistema de directorio.</li>
+          </ul>
+          <li>Protocolo de verificación online del estado de revocación de los certificados (OCSP)</li>
+          <ul>
+            <li>Al mismo tiempo, el OCSP es un protocolo de verificación online del estado de revocación de los certificados.</li>
+            <li>Solicitudes firmasdas y más eficiente que las descargas CRL y ofreciendo como respuesta de: 
+            "bueno" (good), "revocado" (revoked) o "desconocido" (unknowno).</li>
+          </ul>
+        </ul>
+        <br></br>
+        <h2>Otros usos de certificados</h2>
+        <h3>Autenticación WEB</h3>
+        <p>En la autenticación web, permiten verificar la seguridad de los sitios mediante certificados cualificados.</p>
+        <h3>VPN y certificados de cliente</h3>
+        <p>En las VPNs, cada cliente necesita un certificado de cliente generado desde un certificado raíz para conectarse de forma segura, evitando errores de autenticación.</p>
+        <br></br>
 
       </div>
     </PostDetail>
