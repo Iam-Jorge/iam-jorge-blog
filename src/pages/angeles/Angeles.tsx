@@ -32,6 +32,15 @@ const Docker = () => {
       readTime: '20',
       slug: 'angelesPage2'
     },
+    {
+      id: '3',
+      title: 'Esquema nacional de seguridad (ENS)',
+      description: 'La digitalización y los avances tecnológicos requieren un marco de seguridad para proteger la información y prevenir fraudes.',
+      imageUrl: LogoCCN,
+      date: '2025-03-05',
+      readTime: '15',
+      slug: 'angelesPage3'
+    },
     // Más posts...
   ];
 

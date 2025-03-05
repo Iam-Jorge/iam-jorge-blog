@@ -26,6 +26,7 @@ import HTBPage5 from './pages/htb/posts/htbPage5'
 import Angeles from './pages/angeles/Angeles'
 import AngelesPage1 from './pages/angeles/posts/angelesPage1'
 import AngelesPage2 from './pages/angeles/posts/angelesPage2'
+import AngelesPage3 from './pages/angeles/posts/angelesPage3'
 
 function App() {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
@@ -69,6 +70,7 @@ function App() {
             <Route path="angeles" element={<Angeles/>} />
             <Route path="/angeles/angelesPage1" element={<AngelesPage1 />} />
             <Route path="/angeles/angelesPage2" element={<AngelesPage2 />} />
+            <Route path="/angeles/angelesPage3" element={<AngelesPage3 />} />
             
           </Routes>
         </header>
